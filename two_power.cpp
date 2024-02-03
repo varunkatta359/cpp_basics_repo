@@ -1,4 +1,5 @@
 #include<iostream>
+#include<cmath>
 using namespace std;
 
 int main(){
@@ -8,5 +9,8 @@ int main(){
     for(int i=1;i<=b;i++){
         c*=a;
     }
+    //manually
     cout<<a<<" power "<<b<<" is : "<<c<<endl;
+    //cmath module
+    cout<<pow(a,b)<<endl;
 }
