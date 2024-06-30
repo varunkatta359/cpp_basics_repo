@@ -10,7 +10,7 @@ auto max(T x, U y){
 
 
 int main(){
-    cout <<max(5,6.4)<<endl;
+    cout <<max(56,6.4)<<endl;
 
     return 0;
 }
