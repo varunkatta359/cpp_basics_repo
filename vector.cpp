@@ -18,6 +18,11 @@ int main(){
     for(int ele:vex){
         cout<<ele<<endl;
     }
-    vex.erase(vex.end()-2);
+    vex.erase(vex.end()-3);
     cout<<endl;
+
+    for(int i=0;i<vex.size();i++){
+        cout<<"element "<<i+1<<" is "<<vex[i]<<endl;
+    }
+
 }

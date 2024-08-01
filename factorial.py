@@ -1,7 +1,9 @@
 def factorial(n):
     result = 1
-    for i in range(1,n+1):
-        result*=i
+    # for i in range(1,n+1):
+    #     result*=i
+    if n>0:
+        result=n*factorial(n-1)
     
     return result
 
