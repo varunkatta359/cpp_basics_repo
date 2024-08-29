@@ -71,7 +71,7 @@ public:
 };
 
 int main(){
-    Character C1 = Character("Superman",1000,9.75);
+    Character C1("Superman",1000,9.75);
     CharacterUniverse Cu2 = CharacterUniverse("Batman",850,9.5,"DCU");
     
     // C1.IntroduceCharacter();
